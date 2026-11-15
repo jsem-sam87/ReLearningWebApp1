@@ -1,0 +1,66 @@
+/*
+colors:
+naby blue #000080
+creme #fcf9ca
+salmon orange #C84B31
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf9ca;
+    color: #C84B31;
+;
+/* #FF6B6B */
+}
+h1 {
+    color: #C84B31;
+    text-align: center;
+    font-size: 50px;
+}
+button {
+    background-color: #C84B31;
+    color: #fcf9ca;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 12px;
+}
+p {
+    margin: 12px;
+}
+
+.topLine {
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    padding: 5px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #C84B31;
+    margin-bottom: 5px;
+}
+
+.mainLogo {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+}
+
+.mainInputBox {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: calc(100% - 24px);
+    height: 300px;
+    box-sizing: border-box;
+    margin: 12px;
+    border: 3px, solid, #C84B31;
+    border-radius: 5px;
+    padding: 1%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 500px;
+    outline: none;
+    box-shadow: none;
+}
