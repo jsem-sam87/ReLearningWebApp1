@@ -35,7 +35,7 @@ p {
     justify-content:first baseline;
     align-items: center;
     padding: 5px;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: #C84B31;
     margin-bottom: 5px;
@@ -47,7 +47,7 @@ p {
     margin-right: 20px;
 }
 
-.mainInputBox {
+#mainInputBox {
     display: flex;
     flex-direction: row;
     flex: 1;
