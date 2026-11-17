@@ -64,3 +64,8 @@ p {
     outline: none;
     box-shadow: none;
 }
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
