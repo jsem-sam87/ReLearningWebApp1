@@ -23,7 +23,7 @@ button {
     color: #fcf9ca;
     border-radius: 5px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 12px;
     margin-left: 12px;
 }
 p {
@@ -67,5 +67,37 @@ p {
 
 #calendar {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    width: fit-content;
+    padding: 8px;
+    margin: 12px;
+    text-align: center;
+    grid-template-columns: repeat(7, 40px);
+    border: 3px, solid, #C84B31;
+    border-radius: 5px;
+    
+}
+
+.today {
+    text-decoration: underline;
+    text-decoration-color: #C84B31;
+    text-underline-offset: 3px;
+}
+
+#monthYear {
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 28px;
+}
+
+#calendarControls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    margin-left: 12px;
+    gap: 8px;
+}
+
+#calendarControls button {
+    margin: 0;
 }
