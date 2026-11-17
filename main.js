@@ -1,3 +1,10 @@
+/*
+add:
+click on any day change the textBox to curernt day, save everry day
+
+show the month visually 
+*/
+
 calendarDiv = document.getElementById("calendar");
 
 let prevMonth = document.getElementById("prevMonth");
